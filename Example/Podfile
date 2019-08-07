@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'YLEasyHTTP2_Example' do
+  pod 'YLEasyHTTP2', :path => '../'
+
+  target 'YLEasyHTTP2_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
